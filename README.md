@@ -35,7 +35,8 @@ Numerous popular applications leverage geolocation features, including:
 Follow the steps below to set up and run the application on your development environment.
 
 1. **Clone the Repository**
-   ```git clone https://github.com/your-username/your-repository.git
+   ```
+   git clone https://github.com/martinchez/Geolocation-android-app.git
 
    ```
 2. **Install Dependencies**
@@ -43,11 +44,12 @@ Follow the steps below to set up and run the application on your development env
    ```cd your-repository
        npm install
        Run the Application
-
    ```
 
 3. **Run application**
-   ```npm start
+   ```
+   npm start
+   ```
    This will launch the application locally, and you can access it through your web browser.
 
 ## Platform-Specific Instructions
@@ -59,15 +61,19 @@ For the web application, you can access the app through the provided URL after r
 # Android Application
 
 Follow these steps to build and run the Android application:
-```npx cap add android
-npx cap open android
+   ```
+   npx cap add android
+   npx cap open android
+   ```
 This will open the project in Android Studio, allowing you to build and run the app on an Android emulator or device.
 
 # iOS Application
 
 For the iOS application, use the following commands:
-```npx cap add ios
-npx cap open ios
+   ```
+   npx cap add ios
+   npx cap open ios
+   ```
 This will open the project in Xcode, where you can build and run the app on an iOS simulator or device.
 
 ## Contributing
